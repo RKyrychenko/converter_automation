@@ -3,7 +3,7 @@ Feature: User is able to convert area units
 
   Background:
     Given I click on Got it button
-
+    And I land on Area screen
 
 #  Scenario: User is able to dismiss help
 #    Given I land on Help popup
@@ -16,7 +16,7 @@ Feature: User is able to convert area units
     When I click on Swap it button
     Then I see "Sq Metre" in To header
     And I see "Sq Kilometre" in From header
-  @wip
+
     Scenario Outline: User is able to convert default units
     Given I click on Clear button
     When I enter "<target>" to From field
@@ -26,5 +26,12 @@ Feature: User is able to convert area units
       |1     |1000000|
 #      |2     |2000000|
 #      |3     |3000000|
+
+  @wip
+  Scenario: User is able to use soft keyboard to enter values
+    Given I click on Clear button
+    When I click on From field
+    And I press "3" on soft keyboard
+    Then I get "3000000" in To field
 
 
