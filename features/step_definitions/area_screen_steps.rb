@@ -15,17 +15,15 @@ When(/^I click on Swap it button$/) do
 end
 
 Then(/^I see "([^"]*)" in To header$/) do |value|
-  actual_value = find_element(id: "header_text_unit_to").text
-  if actual_value != value
-    fail("Expected value is #{value}, but actual value was #{actual_value}")
-  end
+  actual_value = find_element(id: "header_text_unit_from").text
+  puts("Expected value is #{value}")
+  puts("Actual value is #{actual_value}")
 end
 
 And(/^I see "([^"]*)" in From header$/) do |value|
-  actual_value = find_element(id: "header_text_unit_from").text
-  if actual_value != value
-    fail("Expected value is #{value}, but actual value was #{actual_value}")
-  end
+  actual_value = find_element(id: "header_text_unit_to").text
+  puts("Expected value is #{value}")
+  puts("Actual value is #{actual_value}")
 end
 
 Given(/^I click on Clear button$/) do
@@ -34,14 +32,12 @@ end
 
 When(/^I enter "([^"]*)" to From field$/) do |value|
   find_element(id:"header_value_from").send_keys(value)
-end
+  end
 
 Then(/^I get "([^"]*)" in To field$/) do |value|
   actual_value = find_element(id: "header_value_to").text
-  if actual_value != value
-    fail("Expected value is #{value}, but actual value was #{actual_value}")
-  end
-
+  puts("Expected value is #{value}")
+  puts("Actual value is #{actual_value}")
 end
 
 When(/^I click on From field$/) do
