@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da89e931-bfd6-4b30-98c7-8dcc32feeaa2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/volume_screen.feature" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/area_screen.feature" afterPath="$PROJECT_DIR$/features/area_screen.feature" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" />
+      <change beforePath="$PROJECT_DIR$/features/volume_screen.feature" afterPath="$PROJECT_DIR$/features/volume_screen.feature" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,38 @@
       <file leaf-file-name="area_screen.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="153">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area_screen_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="volume_screen.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/volume_screen.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="volume_screen_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,27 +60,7 @@
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="volume_screen.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/volume_screen.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="volume_screen_steps.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -62,16 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="area_screen_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-346">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,10 +93,10 @@
       <list>
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" />
         <option value="$PROJECT_DIR$/features/area_screen.feature" />
-        <option value="$PROJECT_DIR$/features/volume_screen.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" />
+        <option value="$PROJECT_DIR$/features/volume_screen.feature" />
       </list>
     </option>
   </component>
@@ -108,8 +107,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2139" />
-    <option name="y" value="50" />
+    <option name="x" value="189" />
+    <option name="y" value="60" />
     <option name="width" value="1400" />
     <option name="height" value="989" />
   </component>
@@ -233,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +260,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
@@ -397,14 +396,16 @@
       <workItem from="1518281902642" duration="4429000" />
       <workItem from="1518287290067" duration="1336000" />
       <workItem from="1518288654545" duration="7054000" />
+      <workItem from="1518299980498" duration="3881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49887000" />
+    <option name="totallyTimeSpent" value="53768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2139" y="50" width="1400" height="989" extended-state="0" />
+    <frame x="189" y="60" width="1400" height="989" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24927746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -803,30 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,18 +812,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/volume_screen.feature">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/volume_screen.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
