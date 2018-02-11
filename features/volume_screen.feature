@@ -1,3 +1,4 @@
+@volume
 Feature: User is able to convert Volume units
 
   Background:
@@ -18,5 +19,5 @@ Feature: User is able to convert Volume units
     Examples:
     |target|result|
     |Power |Power |
-    |Volume1|Volume|
+    |Volume|Volume|
     |Currency|Currency|

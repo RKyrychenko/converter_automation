@@ -29,7 +29,7 @@ Feature: User is able to convert area units
       |2     |2000000|
       |3     |3000000|
 
-
+  @wip
   Scenario: User is able to use soft keyboard to enter values
     Given I click on Clear button
     When I click on From field
