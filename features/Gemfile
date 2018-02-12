@@ -1,0 +1,11 @@
+source :rubygems
+group :test do
+  gem 'cucumber', '3.1.0'
+  gem 'rspec-expectations', '3.7.0'
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'rspec-rails', '3.7.0'
+  gem 'spork'
+  gem 'launchy'
+  gem 'database_cleaner', '1.6.1'
+end
