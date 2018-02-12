@@ -10,10 +10,10 @@ Feature: User is able to convert area units
 #    When I click on Got it button
 #    Then I land on Area screen
 
-
+  @wip
   Scenario: User is able to swap values
     And I see "Sq Kilometre" in From header
-    And I see "Sq Metre" in To header
+    And I see "Sq Kilometre" in To header
     When I click on Swap it button
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To header
@@ -29,7 +29,7 @@ Feature: User is able to convert area units
       |2     |2000000|
       |3     |3000000|
 
-  @wip
+
   Scenario: User is able to use soft keyboard to enter values
     Given I click on Clear button
     When I click on From field
