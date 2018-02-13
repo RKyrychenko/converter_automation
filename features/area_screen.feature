@@ -10,10 +10,10 @@ Feature: User is able to convert area units
 #    When I click on Got it button
 #    Then I land on Area screen
 
-  @wip
+
   Scenario: User is able to swap values
     And I see "Sq Kilometre" in From header
-    And I see "Sq Kilometre" in To header
+    And I see "Sq Metre" in To header
     When I click on Swap it button
     Then I see "Sq Metre" in From header
     And I see "Sq Kilometre" in To header
@@ -40,3 +40,4 @@ Feature: User is able to convert area units
     When I select "Hectare" from left column
     Then I see "Hectare" in From header
     And I get "10000" in To field
+

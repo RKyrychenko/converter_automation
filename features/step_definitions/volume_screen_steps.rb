@@ -11,5 +11,5 @@ end
 
 
 And(/^I select "([^"]*)" from menu$/) do |value|
-  select_menu_item(value)
+    select_menu_item(value)
   end
