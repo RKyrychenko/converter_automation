@@ -41,3 +41,15 @@ Feature: User is able to convert area units
     Then I see "Hectare" in From header
     And I get "10000" in To field
 
+  @wip
+  Scenario Outline: User is able to convert default 3 units in right column
+    Given I click on Clear button
+    When I enter "15" to From field
+    And I select "<target>" from right column
+    Then I get "<result>" in To field
+    Examples:
+      |target|result|
+      |Sq Yard|17939850.6945|
+      |Sq Foot|161458656.2506|
+      |Sq Inch|23250046500.093|
+
